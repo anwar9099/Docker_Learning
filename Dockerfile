@@ -4,7 +4,7 @@ FROM python:3.13
 #This creates a wrorking dir called app
 WORKDIR /app
 
-#This copies my code locally (defined when i docker build) to second . my working dir
+#This copies my code locally (defined when I do docker build) to second working dir
 COPY . .
 
 
